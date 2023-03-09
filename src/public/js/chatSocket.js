@@ -31,7 +31,7 @@ let mostrarMensajes = (user) => {
 };
 
 Swal.fire({
-  title: "Coloca tu nombre de usuario",
+  title: "Coloca tu nombre de usuario para hablar con Soporte",
   input: "text",
   inputValidator: (value) => {
     return !value && `Necesita un nombre`;
